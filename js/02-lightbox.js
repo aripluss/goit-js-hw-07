@@ -19,6 +19,6 @@ console.log(galleryEl);
 
 const lightbox = new SimpleLightbox(".gallery .gallery__item", {
   captionsData: "alt",
-  captionsDelay: 250,
+  captionDelay: 250,
 });
 console.log(lightbox);
